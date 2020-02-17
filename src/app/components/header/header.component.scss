@@ -53,3 +53,13 @@
     margin-bottom: 15px;
 }
 
+.profile__avatar-border{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    display: inline-block;
+    border: 1px solid red;
+}
+img.avatar-circle{
+    border-radius: 100px;
+}
