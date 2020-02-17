@@ -1,15 +1,39 @@
+
+@media only screen and (max-width: 800px){
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+    .profile-content{
+        width: 100%;
+        text-align: center;
+    }
+
+    .profile__avatar{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 801px){
+    .profile-content{
+        width: 70%;
+        float: right;
+        padding: 20px 20px;
+    }
+
+    .profile__avatar{
+        width: 30%;
+        float: left;
+        text-align: end;
+    }
+}
 .header{
     width: 100%;
+    height: fit-content;
     background-color: #f5f5f5;
-    padding: 30px 50px;
-}
-
-.header-flexbox__container{
-    display: flex;
-}
-
-.header-flexbox__item{
-    width: 100%;
+    padding-top: 20px;
+    display: inline-flex;
 }
 
 .profile__name{
@@ -28,3 +52,4 @@
     margin-top: 0;
     margin-bottom: 15px;
 }
+
